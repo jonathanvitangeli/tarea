@@ -47,15 +47,10 @@ section{
   background-color: darkkhaki;
 }
 
-section main{
- background-image: url(/img/Atardecer_en_Guayaquil.jpg);
- width: 100%;
- background-size: cover;
- height: 30vh;
-}
 .tm{
   font-size: 18px;
 }
+
 section p{
   height: 300px;
   width: 100%;
@@ -73,21 +68,49 @@ section div {
   background-color: darkgoldenrod;
 }
 
-.cajas{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+div.conteiner{
+box-sizing: border-box;
+color: darkgoldenrod; 
+font-size: 14px;
+line-height: 20px;
+margin-left: 44px;
+margin-right: 44px;
+padding-left: 15px;
+padding-right: 15px;
+text-size-adjust: 100%;
+width: 1170px;
+}
+
+
+div.cats-row{
+box-sizing: border-box;
+color: darkgoldenrod;
+font-family: 'Times New Roman', Times, serif;
+line-height: 20px;
+margin-left: -15px;
+margin-right: -15px;
+margin-top: 31px;
 }
  
 section{
   width: 100%;
 
 }
-section img {
+.grid-section {
   padding: 20px;
   flex-wrap: wrap;
-
+  display: flex;
 }
+
+#t1:hover{
+  transition: all 2s;
+  transform: scale(1.05);
+}
+
+#t1 {
+  transition: height 2s;
+}
+
 .logo2{
   color: darkgoldenrod;
 }
@@ -110,7 +133,7 @@ a:link{
 
 a:visited{color: black;}
 
-a:hover{color:red ;}
+a:hover{color: 0 0 0 0 ;}
 
 
 
